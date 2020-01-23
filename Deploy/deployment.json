@@ -4,7 +4,7 @@
   "parameters": {
     "location": {
       "type": "string",
-      "defaultValue": "West US"
+      "defaultValue": "West Europe"
     }
   },
   "variables": {
@@ -44,19 +44,6 @@
         },
         "name": "[variables('cosmosdb_name')]"
       }
-    },
-    {
-      "type": "Microsoft.CognitiveServices/accounts",
-      "sku": {
-        "name": "F0"
-      },
-      "kind": "ComputerVision",
-      "name": "[variables('vision_name')]",
-      "apiVersion": "2016-02-01-preview",
-      "location": "[parameters('location')]",
-      "scale": null,
-      "properties": {},
-      "dependsOn": []
     },
     {
       "type": "Microsoft.Web/sites",
@@ -128,7 +115,7 @@
       "type": "microsoft.insights/components",
       "name": "[variables('website_name')]",
       "apiVersion": "2015-05-01",
-      "location": "East US",
+      "location": "West Europe",
       "tags": {
         "[concat('hidden-link:', resourceGroup().id, '/providers/Microsoft.Web/sites/', variables('website_name'))]": "Resource"
       },
