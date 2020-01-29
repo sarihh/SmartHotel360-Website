@@ -32,7 +32,7 @@ export class Footer extends Component {
                         <p>Share</p>
                         <ul className='sh-footer-social'>
                             <li>
-                                <a href=''>
+                                <a href='https://www.instagram.com/smarthotel'>
                                     <img className='sh-footer-icon' alt="instagram" src='/assets/images/instagram.svg' />
                                 </a>
                             </li>
