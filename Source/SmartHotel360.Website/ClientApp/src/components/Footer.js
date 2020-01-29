@@ -42,7 +42,7 @@ export class Footer extends Component {
                                 </a>
                             </li>
                             <li>
-                                <a href=''>
+                                <a href='https://twitter.com/smarthotel'>
                                     <img className='sh-footer-icon' alt="twitter" src='/assets/images/twitter.svg' />
                                 </a>
                             </li>
