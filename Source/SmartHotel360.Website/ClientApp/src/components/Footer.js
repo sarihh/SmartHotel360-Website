@@ -37,7 +37,7 @@ export class Footer extends Component {
                                 </a>
                             </li>
                             <li>
-                                <a href=''>
+                                <a href='https://www.facebook.com/smarthotelroma'>
                                     <img className='sh-footer-icon' alt="facebook" src='/assets/images/facebook.svg' />
                                 </a>
                             </li>
